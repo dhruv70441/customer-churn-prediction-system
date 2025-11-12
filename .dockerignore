@@ -1,0 +1,25 @@
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+
+# Ignore model training checkpoints (if not required for inference)
+checkpoints/
+
+# Ignore git and IDE files
+.git/
+.gitignore
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore system or OS files
+Thumbs.db
